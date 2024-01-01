@@ -1,9 +1,9 @@
 {
-    "name": "PROFESSOR-BOT",
+    "name": "Auto-Filter-Mahesh-BOT",
     "description": "The Telegram Autofilter Bot",
-    "logo": "https://graph.org/file/b7e8484f6395a180b6380.jpg",
-    "keywords": ["Telegram", "auto-filter", "MrMKN"],
-    "repository": "https://github.com/MrMKN/PROFESSOR-BOT",
+    "logo": "https://graph.org/file/0f20570db175553686f09.jpg",
+    "keywords": ["Telegram", "auto-filter", "Maheshsirop"],
+    "repository": "https://github.com/MrMKN/PROFESSOR-BOTS",
     "env": {
         "WEBHOOK": {
             "description": "True/False if your server is web support required? the value is True else False",
@@ -12,42 +12,52 @@
         },
         "BOT_TOKEN": {
             "description": "Your bot token.",
-            "required": true
+            "value": "5637076172:AAHdxfEdwDqmxwY0gLMWw2HEfbuv37S5E_M",
+            "required": false
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "4857766",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "6c3c6facf5598a4b318e138f8c407028",            
             "required": true
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+             "value": "",           
             "required": false
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "value": "1596559467",
             "required": true
         },
         "SHORT_API": {
             "description": "Api Key Of shortner You Use.",
+            "value": "ccdd7d73458653f07aecbaa1d8159457965391b4",
             "required": false
         },
         "SHORT_URL": {
             "description": "Url of shortner site you use.",
+            "value": "publicearn.com",
             "required": false
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
+            "value": "https://graph.org/file/0f20570db175553686f09.jpg",
             "required": false
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "value": "-1001963446260",
             "required": true                              
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+            "value": "",
             "required": false
         },           
         "MAX_RIST_BTNS": {
@@ -57,16 +67,17 @@
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
-            "value": "Hey {mention}👋\n\n{file_name}\n\n🔘 size - {file_size}\n\n╭─── • ❰ @MR_LINK_Z ❱ • ────➤\n┣ ▫️ @MRxSERIES\n┣ ▫️ @MalluMovie_Official\n╰─────── • ◆ • ───────➤",
+            "value": ""
             "required": false
         },
         "DATABASE_URL": {
             "description": "mongoDB URI.",
+            "value": "mongodb+srv://HARERAMHARERAM:HARERAMHARERAM@cluster0.wansflh.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB.",
-            "value": "Cluster0",
+            "value": "HARERAMHARERAM",
             "required": false
         },
         "COLLECTION_NAME": {
@@ -76,7 +87,7 @@
         },
         "SUPPORT_CHAT": {
             "description": "Updated Channel Username Without @ Not Chanel ID",
-            "value": "MKN_BOTZ_DISCUSSION_GROUP",
+            "value": "hexafreinds",
             "required": false
         },
         "IMDB": {
@@ -121,12 +132,12 @@
         },
         "WELCOM_PIC": {
             "description": "Welcome message pic (telegraph link)",
-            "value": "",
+            "value": "https://graph.org/file/0f20570db175553686f09.jpg",
             "required": false
         },
         "WELCOM_TEXT": {
             "description": "your group welcome text keyword({user} = joined use & {chat} = your chat name",
-            "value": "Hᴇʏ {user} 💞\nWᴇʟᴄᴏᴍᴇ ᴛᴏ {chat}.\n\nꜱʜᴀʀᴇ & ꜱᴜᴩᴩᴏʀᴛ, ʀᴇqᴜᴇꜱᴛ ʏᴏᴜ ᴡᴀɴᴛᴇᴅ ᴍᴏᴠɪᴇꜱ",
+            "value": "Hey {user} 💞\nWᴇʟᴄᴏᴍᴇ ᴛᴏ {chat}.\n\nꜱʜᴀʀᴇ & ꜱᴜᴩᴩᴏʀᴛ, ʀᴇqᴜᴇꜱᴛ ʏᴏᴜ ᴡᴀɴᴛᴇᴅ ᴍᴏᴠɪᴇꜱ",
             "required": false
         },
         "BUTTON_LOCK_TEXT": {
@@ -151,6 +162,7 @@
         },
         "RemoveBG_API": {
             "description": "background remover website api key. get from https://www.remove.bg/b/background-removal-api",
+            "value": "9HSoXRuFQSGaeyD9LJfWAYQE",
             "required": false 
         },
         "P_TTI_SHOW_OFF": { 
